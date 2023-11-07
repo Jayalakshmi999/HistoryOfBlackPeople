@@ -51,7 +51,7 @@ import com.itextpdf.kernel.pdf.canvas.parser.PdfTextExtractor;
 
 @RestController
 @RequestMapping("file")
-@CrossOrigin("http://localhost:3000/")
+@CrossOrigin("https://historyofblackpeople-8zy0.onrender.com/")
 public class FileStructureController {
 	@Autowired
 	private FileStructureRepository fileStructureRepository;

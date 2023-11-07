@@ -28,7 +28,7 @@ import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
 
 @RestController
-@CrossOrigin("http://localhost:3000/")
+@CrossOrigin("https://historyofblackpeople-8zy0.onrender.com/")
 public class AdminController {
 @Autowired	
 private AdminRepository adminRepository;
