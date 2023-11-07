@@ -28,13 +28,14 @@ import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
 
 @RestController
-@CrossOrigin("https://historyofblackpeople-8zy0.onrender.com/")
+@CrossOrigin("https://historyofblackpeople-8zy0.onrender.com")
 public class AdminController {
 @Autowired	
 private AdminRepository adminRepository;
 
 @Autowired
 private JavaMailSender javaMailSender;
+
 @Autowired
 private UserRepository userRepository;
 

@@ -2,7 +2,7 @@ package com.example.demo.repos;
 
 import java.util.List;
 
-import org.springframework.data.elasticsearch.annotations.Query;
+
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import com.example.demo.entities.FileStructure;
