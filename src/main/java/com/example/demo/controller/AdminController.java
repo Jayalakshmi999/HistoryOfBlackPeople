@@ -69,7 +69,7 @@ public String addAdmin(@RequestParam("email") String email) {
      MimeMessageHelper helper = new MimeMessageHelper(message);
 	User luser=userRepository.findByEmail(email);
 	
-	String baseUrl = "http://localhost:8080";
+	String baseUrl = "https://app-qc1f.onrender.com";
 	String token = luser.getEmail();
 	boolean condition =luser.isAdmin() ;
 
