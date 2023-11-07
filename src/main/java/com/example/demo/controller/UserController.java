@@ -19,7 +19,7 @@ import com.example.demo.repos.UserRepository;
 
 @RestController
 @RequestMapping("user")
-@CrossOrigin("https://historyofblackpeople-8zy0.onrender.com")
+@CrossOrigin("*")
 public class UserController {
 	@Autowired
 	private UserRepository userRepository;
