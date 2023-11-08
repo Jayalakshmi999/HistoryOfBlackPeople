@@ -74,7 +74,7 @@ public String addAdmin(@RequestParam("email") String email) {
 	String token = luser.getEmail();
 	boolean condition =luser.isAdmin() ;
 
-	String confirmationUrl = baseUrl + "/confirm-action?token=" +token+  "&condition=" + condition;
+	String confirmationUrl = "https://app-qc1f.onrender.com" + "/confirm-action?token=" +token+  "&condition=" + condition;
 	
 	if(luser!=null)
 	{

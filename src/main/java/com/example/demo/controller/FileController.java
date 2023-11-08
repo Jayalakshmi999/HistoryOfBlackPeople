@@ -28,7 +28,7 @@ import com.example.demo.repos.FileRepository;
 
 
 @RestController
-@CrossOrigin(origins = "https://historyofblackpeople-8zy0.onrender.com/", methods = { RequestMethod.DELETE,RequestMethod.GET,RequestMethod.POST })
+@CrossOrigin("*")
 
 public class FileController {
 	
