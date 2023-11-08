@@ -7,7 +7,6 @@ com\example\demo\entities\PdfStructure.class
 com\example\demo\repos\FileStructureMongoRepository.class
 com\example\demo\repos\AdminRepository.class
 com\example\demo\entities\AdminUser.class
-com\example\demo\entities\Employee.class
 com\example\demo\config\SecurityConfig.class
 com\example\demo\entities\User.class
 com\example\demo\entities\FileStructure.class
